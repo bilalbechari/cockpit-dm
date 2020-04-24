@@ -1,0 +1,26 @@
+/* INDEX */
+.logo-airbus {
+  max-width: 65%;
+}
+.sn-bg-airbus1 {
+  background-image: url(../img/fond1.jpg);
+}
+.sn-bg-airbus2 {
+  background-image: url(../img/fond2.jpg);
+}
+.sn-bg-airbus3 {
+  background-image: url(../img/fond3.jpg);
+}
+.white-skin .page-footer {
+  background-color: #00205b;
+}
+.rem-1 {
+  font-size: 1rem !important;
+}
+.picker__footer {
+  font-size: 0.9rem;
+}
+.date-logo {
+  position: absolute;
+  bottom: .3rem;
+}

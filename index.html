@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="SimpleApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Cockpit DM</title>
+
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="fixed-sn white-skin" ng-controller="mainController">
+  <header>
+    <div id="slide-out" class="side-nav sn-bg-airbus1 fixed">
+      <ul class="custom-scrollbar">
+
+        <!-- Logo -->
+        <li class="logo-sn waves-effect py-3">
+          <div class="text-center">
+            <a href="#/" class="pl-0"><img class="logo-airbus" src="img/airbus.png"></a>
+          </div>
+        </li>
+
+        <!-- Liens Navigation -->
+        <li>
+          <ul class="collapsible collapsible-accordion mt-0">
+            <li>
+              <a href="#/" class="collapsible-header waves-effect">
+                <i class="w-fa far fa-home rem-1"></i>Tableau de bord
+              </a>
+            </li>
+            <li>
+              <a class="collapsible-header waves-effect arrow-r">
+                <i class="w-fa fas fa-map rem-1"></i>Applications<i class="fas fa-angle-down rotate-icon"></i>
+              </a>
+              <div class="collapsible-body">
+                <ul>
+                  <li>
+                    <a href="#/application" class="waves-effect">GTR Integration</a>
+                  </li>
+                  <li>
+                    <a href="#/application" class="waves-effect">GTR Missing</a>
+                  </li>
+                  <li>
+                    <a href="#/application" class="waves-effect">GTD UpdateDB</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#/" class="collapsible-header waves-effect">
+                <i class="w-fa far fa-cogs rem-1"></i>Paramètres
+              </a>
+            </li>
+            <li>
+              <a href="#/" class="collapsible-header waves-effect">
+                <i class="w-fa fas fa-user-shield rem-1"></i>Administration
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="sidenav-bg mask-strong"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar double-nav">
+      <div class="float-left">
+        <a href="#/" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"></i></a>
+      </div>
+
+      <div class="breadcrumb-dn mr-auto">
+        <p class="font-weight-bold">Cockpit DM</p>
+      </div>
+
+      <div class="d-flex change-mode">
+        <ul class="nav navbar-nav nav-flex-icons ml-auto">
+          <li class="nav-item my-auto border-right pr-2">
+            <div class="custom-control custom-switch">
+              <input type="checkbox" class="custom-control-input" id="dark-mode">
+              <label class="custom-control-label" for="dark-mode">Mode sombre</label>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Bilal
+                Bechari</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div ng-view></div>
+    </div>
+  </main>
+
+  <footer class="page-footer pt-0 mt-5 rgba-stylish-light">
+    <div class="footer-copyright py-3 text-center">
+      <div class="container-fluid">
+        © 2020 Copyright: <a href="#/" target="_blank"> Airbus</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+  <script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/mainController.js"></script>
+  <script type="text/javascript" src="app/dashboard/dashboardController.js"></script>
+  <script type="text/javascript" src="app/application/applicationController.js"></script>
+</body>
+
+</html>

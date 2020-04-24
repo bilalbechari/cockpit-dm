@@ -1,0 +1,185 @@
+<div class="d-flex">
+  <div class="flex-grow-1">
+    <h3 class="title mb-0">GTR Integration</h3>
+  </div>
+  <div class="">
+    <div class="md-form m-0">
+      <i class="fas fa-calendar-alt date-logo text-muted"></i>
+      <input type="text" id="date-picker" class="form-control datepicker py-0 text-center" ng-model="date">
+    </div>
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Description de l'application</h5>
+        <hr class="hr my-2">
+        <p class="mb-0 text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis ea beatae accusamus id
+          repudiandae eligendi, quidem, iste
+          quas fugiat iure quae labo rum consequuntur, nisi distinctio ullam cumque Necessitatibus, modi.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Rapport de la dernière exécution</h5>
+        <hr class="hr my-2">
+        <div class="row">
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="media z-depth-1 rounded">
+                <i class="far fa-check fa-lg success-color z-depth-1 p-4 rounded-left text-white mr-3"></i>
+                <div class="media-body p-1">
+                  <p class="text-uppercase text-muted mb-1">OK</p>
+                  <h5 class="font-weight-bold mb-0">15/19</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="media z-depth-1 rounded">
+                <i class="far fa-exclamation-triangle fa-lg warning-color z-depth-1 p-4 rounded-left text-white mr-3"></i>
+                <div class="media-body p-1">
+                  <p class="text-uppercase text-muted mb-1">Warning</p>
+                  <h5 class="font-weight-bold mb-0">3/19</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="media z-depth-1 rounded">
+                <i class="far fa-times fa-lg danger-color z-depth-1 p-4 rounded-left text-white mr-3"></i>
+                <div class="media-body p-1">
+                  <p class="text-uppercase text-muted mb-1">Erreur</p>
+                  <h5 class="font-weight-bold mb-0">1/19</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="media z-depth-1 rounded">
+                <i class="far fa-ban fa-lg secondary-color z-depth-1 p-4 rounded-left text-white mr-3"></i>
+                <div class="media-body p-1">
+                  <p class="text-uppercase text-muted mb-1">Fatal</p>
+                  <h5 class="font-weight-bold mb-0">0/19</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+            <div class="card">
+              <div class="card-header px-0" role="tab" id="headingTwo1">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" data-target="#collapseTwo1"
+                  aria-expanded="false" aria-controls="collapseTwo1">
+                  <h5 class="mb-0">
+                    <i class="fas fa-check pr-2 mr-2 border-right text-success"></i>
+                    Logs Ok
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+              <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+                data-parent="#accordionEx">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item border border-left-0 border-right-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Morbi leo risus</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Vestibulum at eros</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header px-0" role="tab" id="headingTwo2">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" data-target="#collapseTwo2"
+                  aria-expanded="false" aria-controls="collapseTwo2">
+                  <h5 class="mb-0">
+                    <i class="fas fa-exclamation-triangle pr-2 mr-2 border-right text-warning"></i>
+                    Logs Warning
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+              <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                data-parent="#accordionEx">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item border border-left-0 border-right-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Morbi leo risus</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Vestibulum at eros</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header px-0" role="tab" id="headingThree3">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" data-target="#collapseThree3"
+                  aria-expanded="false" aria-controls="collapseThree3">
+                  <h5 class="mb-0">
+                    <i class="fas fa-times pr-2 mr-2 border-right text-danger"></i>
+                    Logs Erreur
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+              <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+                data-parent="#accordionEx">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item border border-left-0 border-right-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Morbi leo risus</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Vestibulum at eros</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card border-0">
+              <div class="card-header px-0" role="tab" id="headingThree4">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" data-target="#collapseThree4"
+                  aria-expanded="false" aria-controls="collapseThree4">
+                  <h5 class="mb-0">
+                    <i class="fas fa-ban pr-2 mr-2 border-right text-secondary"></i>
+                    Logs Fatal
+                    <i class="fas fa-angle-down rotate-icon"></i>
+                  </h5>
+                </a>
+              </div>
+              <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4"
+                data-parent="#accordionEx">
+                <div class="card-body">
+                  <ul class="list-group">
+                    <li class="list-group-item border border-left-0 border-right-0">Dapibus ac facilisis in</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Morbi leo risus</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Porta ac consectetur ac</li>
+                    <li class="list-group-item border border-left-0 border-right-0">Vestibulum at eros</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mt-3">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Dernières exécutions</h5>
+        <hr class="hr my-2">
+        <canvas id="bar"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
